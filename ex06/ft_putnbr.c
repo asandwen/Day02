@@ -20,7 +20,7 @@ void ft_putnbr(int nb)
 { 
 	if (nb < 0)
 	{
-		ft_putchar(' ');
+		ft_putchar('-');
 		nb = -nb;
 	}
 	if(nb/10 >0)
